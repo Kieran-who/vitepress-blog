@@ -19,7 +19,7 @@ a smooth and efficient blogging experience.
 - 🔧 **Fully Extendable:** Tap into the entire Vitepress ecosystem for themes,
   plugins, and advanced customization.
 
-## Get Started in Minutes
+## Get Started
 
 1.  **Clone the Magic:** Grab the repository to your local machine.
 2.  **Install Dependencies:**
@@ -47,7 +47,9 @@ a smooth and efficient blogging experience.
 ## Make It Your Own
 
 Dive into the [Vitepress documentation](https://vitepress.dev/) to explore the
-vast customization options available.
+customization options available.
+
+### Directory Structure
 
 While the `npm run new` command defaults to a Year/Month structure, feel free to
 organize your files within the `content` directory however you see fit! To
@@ -58,7 +60,7 @@ using the `npm run new` command looks like this:
 ```md
 ---
 title: title
-date: date YYYY-MM-DD
+date: date # YYYY-MM-DD
 outline: deep
 tags: tag1, tag2
 ---
