@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-it-mathjax3": "^4.3.2",
+    "slugify": "^1.6.6",
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "new": "node ./.bin/new.js"
+  },
+  "bin": {
+    "new": "./.bin/new.js"
+  },
+  "type": "module"
+}
